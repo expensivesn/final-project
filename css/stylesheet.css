@@ -47,9 +47,10 @@ nav{
 }
 
 .fa {
-  padding: 20px;
+  padding: 15px;
   font-size: 30px;
-  width: 50px;
+  width: 61px;
+  height: 59px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
@@ -160,10 +161,14 @@ section, article{
 
 .column {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 10px;
   width: 50%;
   float: left;
 
+}
+
+.clear {
+  clear: left;
 }
 
 /* Clear floats after the columns
@@ -199,4 +204,9 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  background-color: burlywood ;
 }
